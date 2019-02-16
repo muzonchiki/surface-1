@@ -1,0 +1,49 @@
+.players {
+    
+}
+
+.players__content {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.players-content__connection {
+    display: flex;
+    width: 100%;
+    height: 41.5%; // =400px
+    background-color: white;
+    padding-left: 10.156%;
+    padding-right: 10.1565%;
+}
+
+.players-content__collaboration {
+    display: flex;
+    width: 100%;
+    height: 27%; // =260px
+    background-color: #f6f4fa;
+    padding-left: 10.156%;
+    padding-right: 10.1565%;
+}
+
+.players-content__growth {
+    display: flex;
+    width: 100%;
+    height: 31.5%; // =300px
+    background-color: #0a0e34;
+    padding-left: 10.156%;
+    padding-right: 10.1565%;
+}
+
+.players-content__caption {
+    color: $light-gray;
+    font-family: $title-font;
+    font-size: 90px;
+    padding-top: 85px;
+    margin-bottom: 65px;
+    text-transform: uppercase;
+}
+
+.growth__title-number--purple {
+    color: $purple;
+}

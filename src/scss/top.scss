@@ -1,0 +1,150 @@
+.top {
+    background: url('../../img/top/football.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    padding-left: 10.156%;
+    padding-right: 10.1565%;
+}
+
+//HEADER
+
+.header {
+    display: flex;
+    height: 12.5%;
+    padding-top: 20px;
+    
+}
+
+.header__logo {
+    width: 50%;
+}
+
+.logo {
+    width: 200px;
+    height: 42px;
+    background: url('../../img/top/figure-surface1.png') center center no-repeat;
+}
+
+.header__text {
+    width: 50%;
+    padding-top: 15px;
+}
+
+.text { 
+    text-transform: uppercase;
+    color: white;
+    font-family: $title-font;
+    font-size: 14px;
+    text-align: right;
+}
+
+//CONTENT
+
+.content {
+    height: 62.5%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__text {
+    display: flex;
+    flex-flow: column;
+    height: 38.33%;
+    width: 100%;
+    font-family: $title-font;
+}
+
+.text__top {
+    text-transform: uppercase;
+    color: white;
+    font-size: 90px;
+}
+
+.text__down {
+    text-transform: uppercase;
+    text-align: right;
+    color: white;
+    font-size: 90px;
+}
+
+.content__sports {
+    color: $purple;
+    font-family: $title-font;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.sports__list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list__item {
+    margin-left: 3.2%;
+}
+//DOWNLOADS
+
+.download__buttons {
+    height: 25%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.downloads__app-store, .downloads__google-play {
+    width:300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    display: flex;
+    background-color: $purple;
+    border-radius:  30px  30px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.downloads__app-store {
+    margin-right: 55px;
+}
+
+.button__img--app {
+    background: url('../../img/top/Icon\ -\ Apple.png') center center no-repeat;
+    height: 45px;
+    width: 40px;
+}
+
+.button__text {
+    display: flex;
+    flex-flow: column;
+    font-family: $title-font;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-top:5px;
+}
+
+.button__text--up {
+    text-align: left;
+    color: $gray;
+    font-size: 12px;
+}
+
+.button__text--down {
+    text-align: left;
+    color:white;
+    font-size: 14px;
+}
+
+.downloads__google-play {
+    margin-left: 1.51%;
+}
+
+.button__img--google {
+    background: url('../../img/top/Icon\ -\ Google\ Play.png')center center no-repeat;
+    height: 45px;
+    width: 40px;
+}

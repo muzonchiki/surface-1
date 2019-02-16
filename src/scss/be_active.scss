@@ -1,0 +1,52 @@
+.be_active {
+    display: flex;
+    flex-flow: row;
+    font-family: $title-font;
+}
+
+.be_active__img {
+    background: url('../../img/be-active/shutterstock.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    padding-left: 10.156%;
+}
+
+.be_active__content {
+    width: 50%;
+    padding-right: 10.1565%;
+    padding-left: 13.333%;
+    padding-top: 300px;
+}
+
+.be_active__title {
+    font-size: 90px;
+    text-transform: uppercase;
+    color: $light-gray;
+    margin-bottom: 120px;
+}
+
+.be_active__text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.be_active__center-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 3190px;
+    left: 50%; 
+    width: 170px;
+    height: 160px;
+    background-color: $purple;
+    transform: translateX(-85px);
+}
+
+.center-block__number {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 4px solid #8f7bc8;
+}

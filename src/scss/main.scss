@@ -1,0 +1,535 @@
+//fonts
+$title-font: 'Helvetica', 'sans-serif';
+
+//colors
+$purple: #5e42b0;
+$light-gray: #e7e7e7;
+$gray: #c1c1c1;
+
+//setups
+@import './layout.scss';
+
+//blocks
+@import './top.scss';
+@import './athlets.scss';
+@import './players.scss'; 
+@import './be_active.scss';
+@import './find_contact.scss';
+@import './work_it.scss';
+@import './download.scss';  
+@import './footer.scss';
+
+
+
+
+//@media
+@media all and (max-width: 1600px) {
+    .basketballer-img {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 1450px) {
+    .find_contact__content {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .be_active__content, .find_contact__content, .work_it__content {
+        padding-top: 260px;
+    }
+
+    .be_active__content, .work_it__content {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .find_contact__title, .be_active__title, .work_it__title {
+        font-size: 80px;
+    }
+
+    .be_active__content {
+        padding-top: 270px;
+    }
+
+    .download__content {
+        padding-left: 5%;
+    }
+}
+
+@media all and (max-width: 980px) {
+    .find_contact__title, .be_active__title, .work_it__title {
+        font-size: 70px;
+    }
+
+    .be_active__content, .find_contact__content, .work_it__content {
+        padding-top: 280px;
+    }
+}
+
+
+
+@media all and (max-width: 768px) {
+    // section top
+
+    .content {
+        margin-bottom: 80px;
+    }
+
+    .text__top, .text__down {
+        font-size: 64px;
+    }
+
+    .content__sports {
+        margin-top: 180px;
+    }
+
+    .sports__list {
+        justify-content: space-between;
+    }
+
+    .download__buttons {
+        padding-top: 90px; 
+    }
+
+    // section athlets
+
+    .footballer-img {
+        display: none;
+    }
+
+    .footballer768-img {
+        display: block;
+        position: absolute;
+        top: 1150px;
+        left: 0;
+        width: 335px;
+        height: 699px;
+        background-size: cover;
+    }
+
+    .connection__blank, .growth__blank, .collaboration__blank {
+        width: 35%;
+    }
+
+    .connection__content, .collaboration__content, .growth__content {
+        width: 65%; 
+    }
+
+    .athlets-content__connection, .athlets-content__collaboration, .athlets-content__growth {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .athlets-content__caption {
+        padding-top: 80px;
+    }
+
+    //section players
+
+    .basketballer-img {
+        display: none;
+    }
+
+    .basketballer768-img {
+        display: block;
+        position: absolute;
+        background-size: cover;
+        top: 2000px;
+        left: 315px;
+        width: 436px;
+        height: 565px;
+    }
+
+    .players-content__connection, .players-content__collaboration, .players-content__growth {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .connection__content, .collaboration__content, .growth__content {
+        padding-left: 5px;
+    }
+
+    // section be active
+
+    .be_active {
+        flex-flow: column;
+    }
+
+    .be_active__img {
+        background: url('../../img/be-active/shutterstock_for_screen-768.png') center center no-repeat;
+        width: 100%;
+        height: 585px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .be_active__content {
+        height: 375px;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 90px;
+    }
+
+    .be_active__title {
+        margin-bottom: 50px;
+    }
+
+    .be_active__center-block {
+        top: 3410px;
+        left: 33px;
+        transform: translateX(0);
+        width: 116px;
+        height: 116px;
+    }
+
+    // section find contact
+
+    .find_contact {
+        flex-flow: column-reverse;
+    }
+
+    .find_contact__img {
+        background: url('../../img/find_contact/coach_with_team_768.png') center center no-repeat;
+        width: 100%;
+        height: 585px;
+        padding-left: 30px;
+        padding-right: 30px; 
+    }
+
+    .find_contact__content {
+        height: 375px;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 90px;
+    }
+
+    .find_contact__title {
+        margin-bottom: 50px;
+    }
+
+    .find_contact__center-block {
+        top: 4390px;
+        left: 33px;
+        transform: translateX(0);
+        width: 116px;
+        height: 116px;
+    }
+
+    // section work it
+
+    .work_it {
+        flex-flow: column;
+    }
+
+    .work_it__img {
+        background: url('../../img/work_it/football_team_for_screen-768.png') center center no-repeat;
+        width: 100%;
+        height: 585px;
+        padding-left: 30px;
+        padding-right: 30px; 
+    }
+
+    .work_it__content {
+        height: 375px;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 90px;
+    }
+
+    .work_it__title {
+        margin-bottom: 50px;
+    }
+
+    .work_it__center-block {
+        top: 5350px;
+        left: 33px;
+        transform: translateX(0);
+        width: 116px;
+        height: 116px;
+    }
+
+    // section download
+    .download__content {
+        flex-flow: column;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .download__logo {
+        margin-right: 0;
+        margin-bottom: 80px;
+    }
+
+    .download__title {
+        font-size: 80px;
+    }
+
+    .download__buttons {
+        padding-top: 0;
+    }
+
+    .downloads__app-store {
+        margin-right: 30px;
+    }
+
+    // footer
+
+    .footer {
+        justify-content: center;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+
+    .footer__text {
+        display: none;
+    }
+
+    .social__list {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .facebook {
+        margin-left: 0;
+    }
+}
+
+
+
+
+@media all and (max-width: 320px) {
+    // section top
+    .header {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__text {
+        display: none;
+    }
+
+    .header__logo {
+        width: 100%;
+    }
+
+    .text__top, .text__down {
+        font-size: 32px;
+    }
+
+    .content__sports {
+        font-size: 12px;
+    }
+
+    .sports__list {
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        flex-wrap: wrap;
+    }
+
+    .list__item {
+        margin-left: 20px;
+        &:nth-child(1) {
+            margin-left: 0;
+        }
+    }
+
+    .download__buttons {
+        height: 0;
+    }
+
+    .downloads__app-store {
+        margin-right: 5px;
+    }
+
+    .downloads__app-store, .downloads__google-play {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 39px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-top: 0;
+    }
+
+    .button__img--app {
+        background: url('../../img/top/Icon\ -\ Apple-min.png') center center no-repeat;
+        height: 20px;
+        width: 20px;
+        background-size: cover;
+    }
+
+    .button__img--google {
+        background: url('../../img/top/Icon\ -\ Google\ Play-min.png') center center no-repeat; 
+        height: 20px;
+        width: 20px;
+        background-size: cover;
+    }
+
+    .button__text {
+        margin-left: 5px;
+    }
+
+    .button__text--up, .button__text--down {
+        font-size: 8px;
+    }
+
+    // section athlets
+
+    .footballer768-img {
+        display: none;
+    }
+
+    .footballer320 {
+        display: block;
+        position: absolute;
+        top: 1070px;
+        left:60px;
+        width: 192px;
+        height: 281px;
+        background-size: cover;
+    }
+
+    .athlets-content__connection {
+        height: 51.5%;
+        padding-bottom: 20px;
+    }
+    .athlets-content__collaboration {
+        height: 27%;
+    }
+    .athlets-content__growth {
+        height: 21.5%;
+    }
+
+    .connection__blank, .growth__blank, .collaboration__blank {
+        display: none;
+    }
+
+    .connection__content, .collaboration__content, .growth__content {
+        width: 100%;
+    }
+
+    .connection__content {
+        justify-content: space-between;
+    }
+
+    .collaboration__content, .growth__content {
+        justify-content: center;
+    }
+
+    .athlets-content__caption {
+        padding-top: 30px;
+        font-size: 40px; 
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .connection__title-text, .collaboration__title-text, .growth__title-text {
+        font-size: 20px;
+    }
+
+    .collaboration__title, .growth__title {
+        padding-top: 0;
+    }
+
+    .connection__title-number, .collaboration__title-number {
+        font-size: 12px;
+        height: 22px;
+        width: 20px;
+        border-bottom: 3px solid #5e42b0;
+    }
+
+    .growth__title-number {
+        font-size: 12px;
+        height: 22px;
+        width: 20px;
+        border-bottom: 3px solid #c1c1c1;
+    }
+
+    .connection__text, .collaboration__text, .growth__text {
+        font-size: 15px;
+    }
+
+    //section players
+
+    .basketballer768-img {
+        display: none;
+    }
+
+    .basketballer320 {
+        display: block;
+        position: absolute;
+        top: 2020px;
+        left:60px;
+        width: 192px;
+        height: 281px;
+        background-size: cover;
+    }
+
+    .players-content__connection, .players-content__collaboration, .players-content__growth {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .players-content__connection{
+        height: 51.5%;
+        padding-bottom: 20px;
+    }
+    .players-content__collaboration{
+        height: 27%;
+    }
+    .players-content__growth {
+        height: 21.5%;
+    }
+
+    .players-content__caption {
+        padding-top: 30px;
+        font-size: 40px; 
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    //section be_active, find_contact, work_it
+
+    .find_contact__title, .be_active__title, .work_it__title {
+        font-size: 28px;
+    }
+
+    .be_active__text, .find_contact__text, .work_it__text {
+        font-size: 16px;
+    }
+
+    // section download
+
+    .download {
+        padding-left: 10.156%;
+        padding-right: 10.1565%;
+        justify-content: flex-start;
+        padding-top: 150px;
+    }
+
+    .download__content {
+        margin-bottom: 170px;
+    }
+
+    .download__title {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .download__phrase {
+        font-size: 15px;
+    }
+}

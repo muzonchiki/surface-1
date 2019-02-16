@@ -1,0 +1,45 @@
+.work_it {
+    display: flex;
+    flex-flow: row;
+    font-family: $title-font;
+}
+
+.work_it__img {
+    background: url('../../img/work_it/football_team.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    padding-left: 10.156%;
+}
+
+.work_it__content {
+    width: 50%;
+    padding-right: 10.1565%;
+    padding-left: 13.333%;
+    padding-top: 300px;
+}
+
+.work_it__title {
+    font-size: 90px;
+    text-transform: uppercase;
+    color: $light-gray;
+    margin-bottom: 120px;
+}
+
+.work_it__text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.work_it__center-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5120px;
+    left: 50%;
+    width: 170px;
+    height: 160px;
+    background-color: $purple;
+    transform: translateX(-85px);
+}

@@ -1,0 +1,45 @@
+.find_contact {
+    display: flex;
+    flex-flow: row;
+    font-family: $title-font;
+}
+
+.find_contact__content {
+    width: 50%;
+    padding-right: 10.1565%;
+    padding-left: 13.333%;
+    padding-top: 300px;
+}
+
+.find_contact__img {
+    background: url('../../img/find_contact/Rectangle\ 3.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 50%;
+    padding-left: 10.156%;
+}
+
+.find_contact__title {
+    font-size: 90px;
+    text-transform: uppercase;
+    color: $light-gray;
+    margin-bottom: 120px;
+}
+
+.find_contact__text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.find_contact__center-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 4150px;
+    left: 50%;
+    width: 170px;
+    height: 160px;
+    background-color: $purple;
+    transform: translateX(-85px);
+}
